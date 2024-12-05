@@ -17,7 +17,7 @@ base_graph_layout: {"name": "breadthfirst",
 }
 
 # The ratio by which to increase the size of the top nodes and egdes in the graph display
-magnifying_ratio: 4
+magnifying_ratio: 2
 
 # Hexadecimal code for the color of the background highlighting
 highlighting_color: "#FF5733"
