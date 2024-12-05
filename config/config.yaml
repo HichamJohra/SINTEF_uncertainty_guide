@@ -1,0 +1,27 @@
+# Configuration file for the SINTEF Uncertainty Guide App
+
+# Path to the JSON file containing graph data (nodes and edges)
+# This should be a relative or absolute path to the file.
+graph_data_file_path: "./data/graph_data.json"
+
+# The layout style of the cytoscape_elements-based graph to display as flowchart
+# animate: Enable animation to force a redraw
+# fit: Ensure the graph is fully visible
+# padding: Add padding for better visualization
+base_graph_layout: {"name": "breadthfirst",
+                    "roots": "",
+                    "orientation": "vertical",
+                    "animate": False,
+                    "fit": True,
+                    "padding": 10,
+}
+
+# The ratio by which to increase the size of the top nodes and egdes in the graph display
+magnifying_ratio: 4
+
+# Hexadecimal code for the color of the background highlighting
+highlighting_color: "#FF5733"
+
+# Echo mode for debugging or verbose logging.
+# Set to true to enable detailed logs; false to disable them.
+echo: true
